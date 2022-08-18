@@ -10,16 +10,14 @@
 		70F57B72287C566900291EBC /* Bleutooth_introApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F57B71287C566900291EBC /* Bleutooth_introApp.swift */; };
 		70F57B74287C566900291EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F57B73287C566900291EBC /* ContentView.swift */; };
 		70F57B76287C566B00291EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F57B75287C566B00291EBC /* Assets.xcassets */; };
-		70F57B79287C566B00291EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F57B78287C566B00291EBC /* Preview Assets.xcassets */; };
 		70F57B80287C56D600291EBC /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F57B7F287C56D600291EBC /* BLEManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		70F57B6E287C566900291EBC /* Bleutooth intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bleutooth intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F57B6E287C566900291EBC /* Bluetooth intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F57B71287C566900291EBC /* Bleutooth_introApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bleutooth_introApp.swift; sourceTree = "<group>"; };
 		70F57B73287C566900291EBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		70F57B75287C566B00291EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		70F57B78287C566B00291EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70F57B7F287C56D600291EBC /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +35,7 @@
 		70F57B65287C566900291EBC = {
 			isa = PBXGroup;
 			children = (
-				70F57B70287C566900291EBC /* Bleutooth intro */,
+				70F57B70287C566900291EBC /* Bluetooth intro */,
 				70F57B6F287C566900291EBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,29 +43,20 @@
 		70F57B6F287C566900291EBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70F57B6E287C566900291EBC /* Bleutooth intro.app */,
+				70F57B6E287C566900291EBC /* Bluetooth intro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70F57B70287C566900291EBC /* Bleutooth intro */ = {
+		70F57B70287C566900291EBC /* Bluetooth intro */ = {
 			isa = PBXGroup;
 			children = (
 				70F57B71287C566900291EBC /* Bleutooth_introApp.swift */,
 				70F57B73287C566900291EBC /* ContentView.swift */,
 				70F57B7F287C56D600291EBC /* BLEManager.swift */,
 				70F57B75287C566B00291EBC /* Assets.xcassets */,
-				70F57B77287C566B00291EBC /* Preview Content */,
 			);
-			path = "Bleutooth intro";
-			sourceTree = "<group>";
-		};
-		70F57B77287C566B00291EBC /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				70F57B78287C566B00291EBC /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = "Bluetooth intro";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,7 +76,7 @@
 			);
 			name = "Bleutooth intro";
 			productName = "Bleutooth intro";
-			productReference = 70F57B6E287C566900291EBC /* Bleutooth intro.app */;
+			productReference = 70F57B6E287C566900291EBC /* Bluetooth intro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +117,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70F57B79287C566B00291EBC /* Preview Assets.xcassets in Resources */,
 				70F57B76287C566B00291EBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +258,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bleutooth intro/Preview Content\"";
 				DEVELOPMENT_TEAM = WE96CEU333;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -286,7 +273,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mhp.Bleutooth-intro";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bluetooth intro";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,7 +287,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Bleutooth intro/Preview Content\"";
 				DEVELOPMENT_TEAM = WE96CEU333;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -316,7 +302,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mhp.Bleutooth-intro";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bluetooth intro";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
