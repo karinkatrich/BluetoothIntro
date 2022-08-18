@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70F57B69287C566900291EBC /* Build configuration list for PBXProject "Bleutooth intro" */;
+			buildConfigurationList = 70F57B69287C566900291EBC /* Build configuration list for PBXProject "Bluetooth intro" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -326,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70F57B69287C566900291EBC /* Build configuration list for PBXProject "Bleutooth intro" */ = {
+		70F57B69287C566900291EBC /* Build configuration list for PBXProject "Bluetooth intro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70F57B7A287C566B00291EBC /* Debug */,
